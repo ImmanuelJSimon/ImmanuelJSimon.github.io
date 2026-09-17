@@ -339,7 +339,7 @@ a {
 .card-details {
   display: grid;
   grid-template-rows: 0fr;
-
+  overflow: hidden;
   transition: grid-template-rows 450ms cubic-bezier(.2,.7,.2,1);
 }
 
